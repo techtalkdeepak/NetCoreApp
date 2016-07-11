@@ -103,7 +103,7 @@
     "postpublish": [ "dotnet publish-iis --publish-folder %publish:OutputPath% --framework %publish:FullTargetFramework%" ]
   },
   "commands": {
-    "web": "Microsoft.AspNetCore.Server.Kestrel --server.urls http://localhost:5000",
+    "web": "Microsoft.AspNetCore.Server.Kestrel",
     "kestrel": "Microsoft.AspNet.Hosting --server Microsoft.AspNet.Server.Kestrel"
   }
 }
