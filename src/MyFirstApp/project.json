@@ -1,11 +1,11 @@
-{
+﻿{
   "userSecretsId": "aspnet-MyFirstApp-9048caef-64e9-442b-a1a8-467efc7505ef",
 
   "dependencies": {
     "Microsoft.NETCore.App": {
       "version": "1.0.0-rc2-3002702",
       "type": "platform"
-    },
+          },
     "Microsoft.AspNetCore.Authentication.Cookies": "1.0.0-rc2-final",
     "Microsoft.AspNetCore.Diagnostics": "1.0.0-rc2-final",
     "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "1.0.0-rc2-final",
@@ -103,6 +103,7 @@
     "postpublish": [ "dotnet publish-iis --publish-folder %publish:OutputPath% --framework %publish:FullTargetFramework%" ]
   },
   "commands": {
-    "web": "Microsoft.AspNetCore.Server.Kestrel --server.urls http://localhost:5000"
+    "web": "Microsoft.AspNetCore.Server.Kestrel --server.urls http://localhost:5000",
+    "kestrel": "Microsoft.AspNet.Hosting --server Microsoft.AspNet.Server.Kestrel"
   }
 }
