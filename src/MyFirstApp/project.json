@@ -1,4 +1,4 @@
-﻿{
+{
   "userSecretsId": "aspnet-MyFirstApp-9048caef-64e9-442b-a1a8-467efc7505ef",
 
   "dependencies": {
@@ -37,7 +37,8 @@
     "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": {
       "version": "1.0.0-preview1-final",
       "type": "build"
-    }
+    },
+    "Microsoft.AspNet.StaticFiles": "1.0.0-rc1-final"
   },
 
   "tools": {
